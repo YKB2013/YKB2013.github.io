@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>野鸡烧香 源码</title>
+    <style>
+        body{margin:30px;font-family:微软雅黑;}
+        pre{background:#eee;padding:20px;border-radius:8px;white-space:pre-wrap;}
+        .warn{color:red;font-weight:bold;}
+        a{color:#0066cc;text-decoration:none;}
+    </style>
+</head>
+<body>
+    <h2>野鸡烧香 脚本源代码</h2>
+    <p class="warn">⚠️ 仅用于编程学习研究，禁止在他人电脑、公共电脑运行，请勿用于恶作剧！</p>
+    <pre>@echo off
+chcp 936 >nul
+color 04
+title 野鸡烧香 系统警告
+
+:: 生成无Beep命令的VBS脚本
+echo Set WshShell = CreateObject("WScript.Shell") > "%temp%\lock.vbs"
+echo key = "131025" >> "%temp%\lock.vbs"
+echo Do >> "%temp%\lock.vbs"
+echo     usr = InputBox(vbCrLf ^& vbCrLf ^& "        野 鸡 烧 香" ^& vbCrLf ^& vbCrLf ^& "        系统已锁定" ^& vbCrLf ^& vbCrLf ^& "        请输入解锁密码：", "危险警告") >> "%temp%\lock.vbs"
+echo     If usr = "" Then >> "%temp%\lock.vbs"
+echo         MsgBox "取消无效！必须输入密码！", 16, "警告" >> "%temp%\lock.vbs"
+echo     ElseIf usr = key Then >> "%temp%\lock.vbs"
+echo         WshShell.Run "taskkill /f /im cmd.exe", 0 >> "%temp%\lock.vbs"
+echo         MsgBox "解锁成功！", 64, "完成" >> "%temp%\lock.vbs"
+echo         WScript.Quit >> "%temp%\lock.vbs"
+echo     Else >> "%temp%\lock.vbs"
+echo         MsgBox "密码错误，系统即将被喻某人刷成Windows2000！", 16, "错误" >> "%temp%\lock.vbs"
+echo     End If >> "%temp%\lock.vbs"
+echo Loop >> "%temp%\lock.vbs"
+
+:: 运行锁机脚本
+start "" wscript.exe "%temp%\lock.vbs"
+
+:: 全屏纯黑背景
+:blackloop
+cls
+ping -n 1 127.0.0.1 >nul
+goto blackloop
+
+    </pre>
+    <br>
+    <a href="index.html">← 返回首页</a>
+</body>
+</html>

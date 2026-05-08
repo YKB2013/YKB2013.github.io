@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>免责声明</title>
+    <style>
+        body{margin:30px;font-family:微软雅黑;line-height:1.8;}
+        a{color:#0066cc;text-decoration:none;}
+    </style>
+</head>
+<body>
+    <h2>免责声明</h2>
+    <p>1. 本站所有脚本源码仅为编程技术学习与原理科普用途。</p>
+    <p>2. 禁止将源码用于恶作剧、恐吓、干扰他人电脑设备。</p>
+    <p>3. 请勿在非本人设备上运行相关代码，否则后果自行承担。</p>
+    <p>4. 本站不提供任何可直接运行的恶意程序下载，仅展示纯文本源码。</p>
+    <br>
+    <a href="index.html">← 返回首页</a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的技术小站</title>
+    <style>
+        body{text-align:center;margin-top:50px;font-family:微软雅黑;background:#f5f5f5;}
+        a{display:inline-block;margin:20px;font-size:20px;text-decoration:none;color:#0066cc;}
+        a:hover{color:red;}
+    </style>
+</head>
+<body>
+    <h1>欢迎来到我的技术小站</h1>
+    <p>怀旧系统 | 脚本源码 | 编程学习</p>
+    <br>
+    <a href="code.html">野鸡烧香 源码查看</a>
+    <br>
+    <a href="notice.html">免责声明</a>
+</body>
+</html>
