@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Windows XP/2000 网盘下载</title>
+    <style>
+        body{margin:30px;font-family:微软雅黑;line-height:1.8;}
+        h2{color:#0066cc;}
+        .warn{color:red;font-weight:bold;}
+        .btn{display:inline-block;padding:8px 16px;background:#0066cc;color:#fff;text-decoration:none;border-radius:4px;}
+        .btn:hover{background:#004499;}
+    </style>
+</head>
+<body>
+    <h2>Windows XP / Windows 2000 网盘下载</h2>
+    <p class="warn">⚠️ 仅供个人虚拟机怀旧学习使用，请勿商用、请勿安装在物理主机！</p>
+
+    <h3>Windows 2000</h3>
+    <p>经典NT内核怀旧系统，适合虚拟机体验</p>
+    <a class="btn" href="https://pan.quark.cn/s/1653e48000a0" target="_blank">夸克网盘下载</a>
+
+    <h3>Windows XP</h3>
+    <p>经典怀旧系统，虚拟机专用</p>
+    <a class="btn" href="https://pan.quark.cn/s/bca5851985dd" target="_blank">夸克网盘下载</a>
+
+    <br><br>
+    <p class="warn">温馨提示：仅用于个人学习研究，下载后请24小时内自行保存或删除</p>
+    <br>
+    <a href="index.html">← 返回首页</a>
+</body>
+</html>
